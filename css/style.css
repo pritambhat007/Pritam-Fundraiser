@@ -1,0 +1,593 @@
+/* ===================================================
+   HELP PRITAM BHAT FUNDRAISER WEBSITE
+   STYLE.CSS - PART 1
+   =================================================== */
+
+/* ---------- GOOGLE FONT ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f7f8fc;
+
+    color:#333;
+
+    line-height:1.7;
+
+}
+
+/* ---------- LINKS ---------- */
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+/* ---------- IMAGES ---------- */
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+/* ---------- NAVIGATION ---------- */
+
+header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    background:white;
+
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+
+}
+
+.navbar{
+
+    width:90%;
+
+    max-width:1400px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+}
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#8B0000;
+
+}
+
+.navbar ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:28px;
+
+}
+
+.navbar ul li a{
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.navbar ul li a:hover{
+
+    color:#c62828;
+
+}
+
+/* ---------- HERO SECTION ---------- */
+
+.hero{
+
+    width:90%;
+
+    max-width:1400px;
+
+    margin:70px auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:60px;
+
+}
+
+.hero-text{
+
+    flex:1;
+
+}
+
+.hero-text h1{
+
+    font-size:42px;
+
+    line-height:1.25;
+
+    color:#8B0000;
+
+    margin-bottom:20px;
+
+}
+
+.hero-text h2{
+
+    font-size:28px;
+
+    color:#555;
+
+    margin-bottom:30px;
+
+    font-weight:500;
+
+}
+
+.hero-text p{
+
+    margin-bottom:22px;
+
+    font-size:18px;
+
+    text-align:justify;
+
+}
+
+/* ---------- DONATE BUTTON ---------- */
+
+.donate-btn{
+
+    display:inline-block;
+
+    margin-top:25px;
+
+    background:#c62828;
+
+    color:white;
+
+    padding:15px 30px;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:0 10px 25px rgba(198,40,40,.25);
+
+}
+
+.donate-btn:hover{
+
+    background:#8B0000;
+
+    transform:translateY(-3px);
+
+}
+
+/* ---------- HERO IMAGE ---------- */
+
+.hero-image{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.hero-image img{
+
+    width:340px;
+
+    height:340px;
+
+    object-fit:cover;
+
+    border-radius:25px;
+
+    border:8px solid white;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.18);
+
+}
+
+/* ---------- SUMMARY ---------- */
+
+.summary{
+
+    width:90%;
+
+    max-width:1400px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+    margin-bottom:70px;
+
+}
+
+.summary-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.summary-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.summary-card h3{
+
+    color:#8B0000;
+
+    margin-bottom:12px;
+
+    font-size:22px;
+
+}
+
+.summary-card p{
+
+    font-size:18px;
+
+    font-weight:500;
+
+}
+
+/* ---------- COMMON SECTION ---------- */
+
+.section{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:90px auto;
+
+}
+
+.section h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#8B0000;
+
+    margin-bottom:35px;
+
+}
+
+.section p{
+
+    font-size:18px;
+
+    text-align:justify;
+
+}
+
+/* ---------- TIMELINE ---------- */
+
+.timeline{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.timeline div{
+
+    background:white;
+
+    padding:22px;
+
+    border-left:8px solid #8B0000;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    font-size:18px;
+
+}
+/* ==========================================
+DOCUMENTS
+========================================== */
+
+.documents{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+.doc-card{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.doc-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.doc-card h3{
+
+margin-bottom:20px;
+
+color:#8B0000;
+
+}
+
+.doc-card a{
+
+display:inline-block;
+
+background:#8B0000;
+
+color:white;
+
+padding:12px 25px;
+
+border-radius:8px;
+
+font-weight:600;
+
+}
+/* ==========================================
+DONATION
+========================================== */
+
+.donation{
+
+background:#8B0000;
+
+padding:80px 30px;
+
+text-align:center;
+
+color:white;
+
+margin-top:80px;
+
+}
+
+.donation h2{
+
+color:white;
+
+font-size:42px;
+
+margin-bottom:20px;
+
+}
+
+.donation-text{
+
+max-width:900px;
+
+margin:auto;
+
+margin-bottom:50px;
+
+font-size:18px;
+
+}
+
+.donation-container{
+
+display:flex;
+
+justify-content:center;
+
+gap:40px;
+
+flex-wrap:wrap;
+
+}
+
+.qr-card,
+.bank-card{
+
+background:white;
+
+color:#333;
+
+padding:35px;
+
+border-radius:15px;
+
+width:380px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+}
+
+.qr{
+
+width:220px;
+
+margin:25px auto;
+
+}
+
+.qr-card h3,
+.bank-card h3{
+
+color:#8B0000;
+
+margin-bottom:20px;
+
+}
+
+.qr-card button,
+.bank-card button{
+
+margin-top:15px;
+
+padding:12px 20px;
+
+border:none;
+
+background:#8B0000;
+
+color:white;
+
+border-radius:8px;
+
+cursor:pointer;
+
+font-size:15px;
+
+}
+
+.qr-card button:hover,
+.bank-card button:hover{
+
+background:#c62828;
+
+}
+/* ===========================
+   SHARE BOX
+=========================== */
+
+.share-box{
+
+margin-top:60px;
+
+text-align:center;
+
+color:white;
+
+}
+
+.share-box h3{
+
+font-size:30px;
+
+margin-bottom:15px;
+
+}
+
+.share-box p{
+
+max-width:700px;
+
+margin:auto;
+
+margin-bottom:25px;
+
+font-size:18px;
+
+}
+
+.share-btn{
+
+background:#25D366;
+
+color:white;
+
+border:none;
+
+padding:16px 35px;
+
+font-size:18px;
+
+border-radius:10px;
+
+cursor:pointer;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.share-btn:hover{
+
+background:#1ea851;
+
+}

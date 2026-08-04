@@ -1,0 +1,465 @@
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:#f8f9fa;
+
+color:#333;
+
+}
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+section{
+
+padding:80px 0;
+
+}
+
+.container{
+
+max-width:1200px;
+
+}
+/* ============================
+   HERO SECTION
+============================ */
+
+#hero{
+
+    margin-top:90px;
+
+    padding-top:90px;
+
+    padding-bottom:60px;
+
+    background:linear-gradient(
+        135deg,
+        #ffffff 0%,
+        #fff8f8 55%,
+        #fff1f1 100%
+    );
+
+}
+/* ============================
+   QUICK INFO
+============================ */
+
+#quick-info{
+
+background:#ffffff;
+
+padding-top:60px;
+
+padding-bottom:60px;
+
+}
+
+#quick-info .card{
+
+    border:none;
+
+    border-radius:22px;
+
+    padding:20px 10px;
+
+    transition:.35s ease;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+
+}
+
+#quick-info .card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(139,0,0,.15);
+
+}
+
+#quick-info h1{
+
+    font-size:48px;
+
+    color:#8B0000;
+
+    margin-bottom:18px;
+
+}
+
+#quick-info h5{
+
+    font-size:20px;
+
+    font-weight:700;
+
+    color:#8B0000;
+
+}
+
+#quick-info p{
+
+font-size:17px;
+
+margin-bottom:0;
+
+}
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar-brand{
+
+font-size:2rem;
+
+font-weight:700;
+
+color:#8B0000 !important;
+
+}
+
+.nav-link{
+
+font-weight:500;
+
+margin-left:15px;
+
+}
+#hero{
+
+margin-top:90px;
+
+padding-top:60px;
+
+padding-bottom:60px;
+
+background:linear-gradient(
+135deg,
+#ffffff 0%,
+#f9f9f9 55%,
+#fff4f4 100%
+);
+
+}
+.profile-image{
+
+    max-width:300px;
+    border:4px solid #8B0000;
+    border-radius:50%;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+
+}
+/* ==========================================
+   MOBILE RESPONSIVE
+========================================== */
+
+@media (max-width:768px){
+
+    /* Hero Section */
+
+    #hero{
+
+        padding-top:50px;
+        padding-bottom:50px;
+        text-align:center;
+
+    }
+
+    /* Hero Heading */
+
+    #hero h1{
+
+        font-size:2.2rem;
+        line-height:1.2;
+        margin-bottom:20px;
+    }
+
+    /* Hero Paragraph */
+
+    #hero p{
+
+        font-size:1.05rem;
+        line-height:1.6;
+
+    }
+
+    /* Profile Image */
+
+    .profile-image{
+
+        max-width:190px;
+        margin-top:15px;
+        margin-bottom:20px;
+
+    }
+
+    /* Support Button */
+
+    #hero .btn{
+
+        width:100%;
+
+    }
+
+    /* Trust Badges */
+
+    #hero .mt-4{
+
+        text-align:center;
+        display:block;
+
+    }
+
+    /* Quick Info Cards */
+
+    #quick-info .card{
+
+        margin-bottom:20px;
+
+    }
+
+}
+
+/* ==========================================
+   DONATION PROGRESS
+========================================== */
+
+#progress{
+
+    padding-top:40px;
+    padding-bottom:80px;
+
+}
+
+#progress h2{
+
+    font-size:2.2rem;
+    font-weight:700;
+
+}
+
+#progress .lead{
+
+    max-width:650px;
+    margin:auto;
+
+}
+
+#progress .card{
+
+    border-radius:25px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.12);
+
+}
+
+.progress{
+
+    height:26px;
+    border-radius:20px;
+    overflow:hidden;
+
+}
+
+.progress-bar{
+
+    font-weight:600;
+
+}
+#why-help p{
+
+    line-height:1.8;
+
+}
+
+#why-help li{
+
+    margin-bottom:12px;
+
+}
+/* ==========================================
+   TREATMENT JOURNEY
+========================================== */
+
+.timeline{
+
+    position:relative;
+    max-width:900px;
+    margin:0 auto;
+
+}
+
+.timeline-item{
+
+    display:flex;
+    align-items:center;
+    margin-bottom:60px;
+
+}
+
+.timeline-icon{
+
+    width:70px;
+    height:70px;
+
+    background:#dc3545;
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:30px;
+
+    margin-right:40px;
+
+    flex-shrink:0;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+
+}
+
+.timeline-card{
+
+    background:#fff;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+    flex:1;
+
+}
+
+.timeline-card h4{
+
+    color:#dc3545;
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+.timeline-card small{
+
+    color:#777;
+
+    font-weight:600;
+
+}
+/* ==========================================
+   MEDICAL REPORTS
+========================================== */
+
+#reports{
+    padding-top:100px;
+    padding-bottom:80px;
+}
+
+#reports .card-body{
+    padding:30px;
+}
+/* ==========================================
+   DONATE
+========================================== */
+
+#donate{
+
+    padding-top:100px;
+    padding-bottom:100px;
+
+}
+
+#donate .card{
+
+    border-radius:25px;
+    box-shadow:0 15px 40px rgba(0,0,0,.10);
+    height:100%;
+
+}
+
+#donate h4{
+
+    color:#dc3545;
+    font-weight:700;
+
+}
+
+#donate table th{
+
+    width:150px;
+    color:#555;
+
+}
+
+#donate img{
+
+    border-radius:20px;
+
+}
+/* ==========================================
+   THANK YOU
+========================================== */
+
+#thank-you{
+
+    padding-top:80px;
+    padding-bottom:80px;
+
+}
+
+#thank-you .card{
+
+    border-radius:25px;
+    box-shadow:0 15px 40px rgba(0,0,0,.10);
+
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer{
+
+    background:#222;
+    color:#ffffff;
+    padding:35px 0;
+    margin-top:20px;
+
+}
+
+footer h5{
+
+    font-weight:700;
+    margin-bottom:15px;
+
+}
+
+footer p{
+
+    margin-bottom:10px;
+    color:#e6e6e6;
+
+}
+
+footer small{
+
+    color:#cfcfcf;
+
+}

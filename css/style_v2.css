@@ -233,51 +233,7 @@ background:linear-gradient(
 
 }
 
-/* ==========================================
-   DONATION PROGRESS
-========================================== */
 
-#progress{
-
-    padding-top:40px;
-    padding-bottom:80px;
-
-}
-
-#progress h2{
-
-    font-size:2.2rem;
-    font-weight:700;
-
-}
-
-#progress .lead{
-
-    max-width:650px;
-    margin:auto;
-
-}
-
-#progress .card{
-
-    border-radius:25px;
-    box-shadow:0 15px 40px rgba(0,0,0,0.12);
-
-}
-
-.progress{
-
-    height:26px;
-    border-radius:20px;
-    overflow:hidden;
-
-}
-
-.progress-bar{
-
-    font-weight:600;
-
-}
 #why-help p{
 
     line-height:1.8;
